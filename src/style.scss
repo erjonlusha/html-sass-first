@@ -1,0 +1,15 @@
+// Installate nodejs usate Laravelmix per creare un progetto SASS
+// una semplice index.html con degli h2, h3 e paragrafi 
+// applicate agli h2 e h3 lo stesso colore tramite una variabile
+$primary_purple: purple;
+$secondary_purple: rgb(255, 0, 255);
+
+h3{
+    background-color: $primary_purple;
+    color: $secondary_purple;
+}
+
+h2{
+    background-color: $secondary_purple;
+    color: $primary_purple
+}
